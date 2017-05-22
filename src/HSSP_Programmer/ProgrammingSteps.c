@@ -59,7 +59,6 @@
 #include "SWD_PacketLayer.h"
 #include "DataFetch.h"
 #include "Timeout.h"
-#include "project.h"
 
 /******************************************************************************
 *   Global Variable definitions

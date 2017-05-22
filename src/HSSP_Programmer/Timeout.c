@@ -55,8 +55,7 @@
 *   Header file Inclusion
 ******************************************************************************/
 #include "Timeout.h"
-#include "CyLib.h"
-
+#include <unistd.h> // for usleep
 /******************************************************************************
 *   Function Definitions
 ******************************************************************************/
@@ -80,7 +79,7 @@
 
 void DelayHundredUs(void)
 {
-    CyDelayUs(100);
+    usleep(100);
 }
 
 /* [] END OF FILE */
