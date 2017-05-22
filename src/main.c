@@ -29,7 +29,7 @@
 #include "gpio_lib.h"
 #include "SWD_PhysicalLayer.h"
 
-/* Function which sequentially calls all the programming steps
+// Function which sequentially calls all the programming steps
 unsigned char ProgramDevice(void);
 
 /* Global variable which stores the current programming step under execution */

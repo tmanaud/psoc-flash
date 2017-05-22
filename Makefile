@@ -1,7 +1,7 @@
 CC=arm-linux-gnueabihf-gcc
 
 
-TARGET_EXEC ?= psoc_flash
+TARGET_EXEC ?= psoc-flash
 
 BUILD_DIR ?= build
 SRC_DIRS ?= src
