@@ -10,12 +10,8 @@
 
 /******************************************************************************
 * Project Description:
-*
-* main.c checks the result of ProgramDevice() function and if it returns
-* SUCCESS, "HSSP Success" is displayed on the character LCD mounted on the
-* PSoC 5LP kit. If ProgramDevice() returns failure, Step of failure, Reason
-* of failure is displayed on the LCD. If the error is because of SROM, It
-* displays the SROM error code.
+* Call ProgramDevice in sequence with HSSP library an bitbang pins to load
+* flash with HexImage.c file content
 ******************************************************************************/
 
 #include <stdio.h>
